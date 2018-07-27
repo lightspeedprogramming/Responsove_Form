@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Form</title>
+	<meta charset = "utf-8" name="viewport" content="width=device-width" initial-scale="1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form method = "post">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter Your Name </label>
+					</div>
+					<div class="col-sm-6">
+						<input type="text" name="name" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter Your Email </label>
+					</div>
+					<div class="col-sm-6">
+						<input type="text" name="e" class="form-control">
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter Your Password </label>
+					</div>
+					<div class="col-sm-6">
+						<input type="text" name="p" class="form-control">
+					</div>
+				</div>
+			</div>
+
+			<!--mobile no row-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6"><label>Enter your Mobile No :</label></div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-phone-alt"></span>
+							</div>
+							<input type="number" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--website url-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6"><label>Enter your website URL</label></div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-"></span>
+							</div>
+							<input type="url" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--favourite color-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6"><label>Enter your fav color :</label></div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-"></span>
+							</div>
+							<input type="color" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--profile pic-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6"><label>Enter your profile pic</label></div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-picture"></span>
+							</div>
+							<input type="file" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter your address :</label>
+					</div>
+					<div class="col-sm-6">
+						<textarea cols="50" rows="5" class="form-control"></textarea>
+					</div>
+				</div>
+			</div>
+			<!--gender div-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter your Gender :</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="GLYPHICON GLYPHICON-"></span>
+							</div>
+							Male <input type="radio" name="gender" />
+							Female <input type="radio" name="gender" />
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--hobbies textfield-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Select your hobbies</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-"></span>
+							</div>
+							singing <input type="checkbox"/>
+							playing <input type="checkbox"/>
+							reading <input type="checkbox"/>
+							listening <input type="checkbox"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--select your country-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6"><label>Select your country</label></div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-flag"></span>
+							</div>
+							<select type="multiple" class="form-control ">
+								<option>Canada</option>
+								<option>India</option>
+								<option>Singapore</option>
+								<option>Pakistan</option>
+								<option>Iraq</option>
+								<option>Dubai</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--DOB div-->
+				<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter your DOB</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-calendar"></span>
+							</div>
+							<input type="date" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--time div-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter your time</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon"></span>
+							</div>
+							<input type="time" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--month div-->
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Enter your month :</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon"></span>
+							</div>
+							<input type="time" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--week div-->
+			<div class="form-group">
+				<div class="row">
+					<div class=col-sm-6>
+						<label>Enter your week</label>
+					</div>
+					<div class="col-sm-6">
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon"></span>
+							</div>
+							<input type="time" class="form-control"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--submit button-->
+			<div class="form-group">
+				<div class="col-sm-6 text-center">
+					<input class="btn btn-primary btn-md" type="submit" name="submit" value="Sign Up"/>
+				</div>
+				
+			</div><br></br><br></br><br></br>
+		</form>
+	</div>
+</body>
+</html>
